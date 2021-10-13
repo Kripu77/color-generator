@@ -29,13 +29,14 @@ button{
     outline: none;
     border: none;
     height: 2rem;
-    width: 7rem;
+    width: 7.4rem;
     background-color: #d64292;
     color: #fff;
     font-family: monospace;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
     transition: 0.8s all ease-in-out;
+    border-radius: 10px;
 }
 button:hover{
 width: 9rem;
