@@ -6,9 +6,13 @@
 
 body{
     background-color: #202020;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #fff;
     text-align: center;
+    }
+
+    span{
+        color:#d64292
     }
 
 section{
@@ -28,10 +32,10 @@ button{
     width: 7rem;
     background-color: #d64292;
     color: #fff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
-    transition: 0.4s all ease-in-out;
+    transition: 0.8s all ease-in-out;
 }
 button:hover{
 width: 9rem;
