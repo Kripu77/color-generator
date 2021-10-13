@@ -2,9 +2,16 @@ import React from 'react'
 
 const App = () => {
     return (
-        <div>
-            <h1> test</h1>
-        </div>
+        <main>
+            <h1> Color Generator</h1>
+            <section>
+                <form>
+                    <label htmlFor='generator'> Color Generator</label>\
+                    <input type="text" id="generator" name="generator"></input>
+                    <button> Generate</button>
+                </form>
+            </section>
+        </main>
     )
 }
 
