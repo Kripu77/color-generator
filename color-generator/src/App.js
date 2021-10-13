@@ -1,7 +1,13 @@
 import React,{useState} from 'react'
+import {ToastContainer, toast} from "react-toastify";
+  import 'react-toastify/dist/ReactToastify.css';
+  import Values from 'values.js'
+
 import "./CSS/style.css"
 const App = () => {
     const [value, setValue] = useState('')
+    const[error, setError] = useState(false);
+    const[list, setList] =useState([])
 
     //prevents default behaviour
     const handleSubmit = (e)=>{
