@@ -23,6 +23,9 @@ e.preventDefault();
                     <button type='submit'> Generate</button>
                 </form>
             </section>
+            <section className='color-pallate'>
+
+            </section>
         </main>
     )
 }
