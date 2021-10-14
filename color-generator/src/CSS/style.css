@@ -56,3 +56,20 @@ height: 2.3rem;
 color:#d64292;
 background-color: #fff;
 }
+
+.color-pallate{
+display: flex;
+  flex-wrap: wrap;
+}
+
+.color{
+    flex: 5;
+   margin: 2rem 0;
+ 
+  
+}
+
+
+.colorBoard{
+    padding: 6rem;
+}
