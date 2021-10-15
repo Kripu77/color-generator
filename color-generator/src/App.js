@@ -33,7 +33,7 @@ catch(error){
             <section>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor='generator'> Color <span> Generator</span></label>
-                    <input type="text" id="generator" name="generator" value={value} onChange={(e)=>setValue(e.target.value)}></input>
+                    <input type="text" id="generator" name="generator" value={value} onChange={(e)=>setValue(e.target.value)} placeholder='#f15025'></input>
                     <button type='submit'> Generate</button>
                 </form>
             </section>

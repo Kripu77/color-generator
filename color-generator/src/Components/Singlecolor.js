@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Singlecolor = ({index, weight, rgb }) => {
+const Singlecolor = ({index, weight, rgb, hex }) => {
 
 
       const all = [...rgb]
@@ -13,7 +13,8 @@ const Singlecolor = ({index, weight, rgb }) => {
 
         <div className='color'>
           <div  className ='colorBoard'style={{backgroundColor:`rgb(${all})`}}>
-              <h1>{weight}</h1>
+              <p>{weight}%</p>
+              <p>{hex}</p>
 
           </div>
         </div>
