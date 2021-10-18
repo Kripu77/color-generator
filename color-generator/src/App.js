@@ -34,7 +34,7 @@ document.title='Kripu\'s Color Generator'
             <section>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor='generator'> Color <span> Generator</span></label>
-                    <input type="text" id="generator" name="generator" value={value} onChange={(e)=>setValue(e.target.value)} placeholder='#222'></input>
+                    <input className='inputF' type="text" id="generator" name="generator" value={value} onChange={(e)=>setValue(e.target.value)} placeholder='#222'></input>
                     <button type='submit'> Generate</button>
                 </form>
             </section>

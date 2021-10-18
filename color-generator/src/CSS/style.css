@@ -90,3 +90,12 @@ display: flex;
 .color-dark{
     color:blaCK;
 }
+
+@media all and (max-width:680px){
+    form{
+        display: block;
+    }
+.inputF{
+    margin: 2rem 0;
+}
+}
