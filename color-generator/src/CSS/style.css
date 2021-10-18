@@ -77,3 +77,11 @@ display: flex;
 p{
     color: gray;
 }
+
+.color-light{
+    color: aliceblue;
+}
+
+.color-dark{
+    color:blaCK;
+}

@@ -14,10 +14,12 @@ const Singlecolor = ({index, weight, rgb, hexColor }) => {
 
 
         <div className='color'>
-          <div  className ='colorBoard'style={{backgroundColor:`rgb(${all})`}}>
-              <p>{weight}%</p>
-              <p>{hex}</p>
-
+          <div  className ='colorBoard'style={{backgroundColor:`rgb(${all})`}} >
+           <div >
+           
+              <p className={index>5?'color-light' : 'color-dark'}>{weight}%</p>
+              <p className={index>5?'color-light' : 'color-dark'}>{hex}</p>
+</div>
           </div>
         </div>
     )
