@@ -1,10 +1,12 @@
 import React from 'react'
+import rgbToHex from './Utils'
 
-const Singlecolor = ({index, weight, rgb, hex }) => {
+const Singlecolor = ({index, weight, rgb, hexColor }) => {
 
 
       const all = [...rgb]
-      console.log(all)
+    const hex = rgbToHex(...all)
+    console.log(hex)
     return (
 
 
